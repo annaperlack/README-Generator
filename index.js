@@ -32,7 +32,7 @@ inquirer
         {
             type: 'input',
             name: 'contributing',
-            message: 'How can others contibute to your application?',
+            message: 'How can others contribute to your application?',
         },
         {
             type: 'input',
@@ -54,7 +54,7 @@ inquirer
     .then((answers) => {
         const readmeText = generateReadme(answers)
         console.log(answers)
-        fs.writeFile('README.md', readmeText, (err) =>
+        fs.writeFile('README-sample.md', readmeText, (err) =>
             err ? console.log(err) : console.log('Successfully created README.md')
         );
     });
