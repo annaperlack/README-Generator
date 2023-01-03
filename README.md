@@ -1,5 +1,5 @@
 
-# ljasdf undefined <a id="title"></a>
+# README Generator [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0) <a id="title"></a>
 
 ## Table of Contents
 - [Title](#title)
@@ -10,21 +10,21 @@
 - [Contributing](#contributing)
 
 ## Description
-akjf <a id="description"></a>
+This application allows a user to create a custom README file. The user will be prompted to enter information about the application to display in the README file. The table of contents portion of the README file will easily allow anyone accessing the README file to jump from section to section.  <a id="description"></a>
 
 ## Installation
-ajsaldfkj<a id="installation"></a>
+npm init<a id="installation"></a>
 
 ## Usage
-lsadjf <a id="usage"></a>
+This application will allow users to create a custom README file.  <a id="usage"></a>
 
 ## License
-This is application is covered under the Boost license. <a id="license"></a>
+This is application is covered under the Perl license. <a id="license"></a>
 
 ## Contributing
-aldkjsf <a id="contributing"></a>
+N/A <a id="contributing"></a>
 
 ## Questions
 [GitHub](https://www.github.com/annaperlack) 
 
-Please [email](mailto:annaperlack@gmail.com) me with any questions regarding this application. annaperlack@gmail.com
+Please [email](mailto:annaperlack@gmail.com) me with any questions regarding this application.
