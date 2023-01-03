@@ -95,8 +95,7 @@ ${contributing} <a id="contributing"></a>
 ## Questions
 [GitHub](https://www.github.com/${username}) 
 
-Please email me with any questions regarding this application. 
-[E-mail](${email})
+Please [email](${email}) me with any questions regarding this application. 
 `
 }
 
