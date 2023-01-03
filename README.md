@@ -2,7 +2,7 @@
 
 ## Description
 
-This application allows a user to create a custom README file. The user will be prompted to enter information about the application to display in the README file. The table of contents portion of the README file will easily allow anyone accessing the README file to jump from section to section.
+This application was created using node.js and the inquirer 8.2.4 package. It allows a user to create a custom README file by entering information into the terminal. The user will be prompted to enter information about the application that will then display in the README file. The table of contents portion of the README file will easily allow anyone accessing the README file to jump from section to section. 
 
 ## Installation
 
@@ -12,7 +12,7 @@ This application allows a user to create a custom README file. The user will be 
 
 ## Usage
 
-This application allows a user to create a custom README file.
+This application allows a user to create a custom README file for their own personal projects and applications, The README file will display with the following sections: title, table of contents, description, installation, usage, license, contributing, questions. 
 
 
 
