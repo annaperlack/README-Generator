@@ -12,11 +12,13 @@ This application was created using node.js and the inquirer 8.2.4 package. It al
 
 ## Usage
 
-This application allows a user to create a custom README file for their own personal projects and applications, The README file will display with the following sections: title, table of contents, description, installation, usage, license, contributing, questions. 
-
+This application allows a user to create a custom README file for their own personal projects and applications, The README file will display with the following sections: title, table of contents, description, installation, usage, license, contributing, questions. See below for a sample README file.
 
 
 [README-Generator](https://github.com/annaperlack/README-Generator)
+
+![screenshot](assets/screenshot-README.png)
+
 
 
 ## Credits

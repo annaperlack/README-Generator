@@ -59,7 +59,7 @@ inquirer
         );
     });
 
-function generateReadme({title, description, installation,  usage, license, contributing, username, email}) {
+function generateReadme({title, description, installation,  usage, license, contributing, tests, username, email}) {
     const licenseText = getLicenseText(license)
     return `
 # ${title} ${licenseText} <a id="title"></a>
@@ -86,6 +86,9 @@ This is application is covered under the ${license} license. <a id="license"></a
 
 ## Contributing
 ${contributing} <a id="contributing"></a>
+
+## Tests
+${tests} <a id="tests"></a>
 
 ## Questions
 [GitHub](https://www.github.com/${username}) 
