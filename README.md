@@ -1,16 +1,16 @@
 
-# a [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0) <a id="title"></a>
+# a [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) <a id="title"></a>
 
 ## Table of Contents
 - [Title](#title)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#usage)
+- [License](#license)
 - [Contributing](#contributing)
 
 ## Description
-b <a id="descriptio"></a>
+b <a id="description"></a>
 
 ## Installation
 d<a id="installation"></a>
@@ -19,13 +19,13 @@ d<a id="installation"></a>
 e <a id="usage"></a>
 
 ## License
-Eclipse <a id="license"></a>
+This is application is covered under the Apachi license. <a id="license"></a>
 
 ## Contributing
 f <a id="contributing"></a>
 
 ## Questions
+[GitHub](https://www.github.com/annaperlack) 
 
-[github account](https://www.github.com/annaperlack) 
-
-[email address](annaperlack@gmail.com)
+Please email me with any questions regarding this application. 
+[E-mail](annaperlack@gmail.com)

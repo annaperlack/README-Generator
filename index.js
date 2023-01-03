@@ -74,11 +74,11 @@ function generateReadme({title, description, installation,  usage, license, cont
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#usage)
+- [License](#license)
 - [Contributing](#contributing)
 
 ## Description
-${description} <a id="descriptio"></a>
+${description} <a id="description"></a>
 
 ## Installation
 ${installation}<a id="installation"></a>
@@ -87,15 +87,16 @@ ${installation}<a id="installation"></a>
 ${usage} <a id="usage"></a>
 
 ## License
-${license} <a id="license"></a>
+This is application is covered under the ${license} license. <a id="license"></a>
 
 ## Contributing
 ${contributing} <a id="contributing"></a>
 
 ## Questions
-[github account](https://www.github.com/${username}) 
+[GitHub](https://www.github.com/${username}) 
 
-[email address](${email})
+Please email me with any questions regarding this application. 
+[E-mail](${email})
 `
 }
 
