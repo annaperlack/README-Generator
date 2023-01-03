@@ -15,11 +15,6 @@ inquirer
         },
         {
             type: 'input',
-            name: 'tableOfContents',
-            message: 'Please list the table of contents of your application.',
-        },
-        {
-            type: 'input',
             name: 'installation',
             message: 'How do you install your application?',
         },
@@ -95,7 +90,7 @@ ${contributing} <a id="contributing"></a>
 ## Questions
 [GitHub](https://www.github.com/${username}) 
 
-Please [email](${email}) me with any questions regarding this application. 
+Please [email](mailto:${email}) me with any questions regarding this application.
 `
 }
 
