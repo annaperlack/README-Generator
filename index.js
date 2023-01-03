@@ -32,7 +32,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'What license did you use?',
-            choices: ['MIT', 'Creative Commons', 'Apachi', 'ISC', 'Eclipse'],
+            choices: ['MIT', 'Apachi', 'Eclipse', 'ISC', 'Perl', 'Boost'],
         },
         {
             type: 'input',
@@ -64,14 +64,36 @@ inquirer
         );
     });
 
-function generateReadme({title, description, license}) {
+function generateReadme({title, description, installation,  usage, license, contributing, username, email}) {
     const licenseText = getLicenseText(license)
     return `
-# ${title} ${licenseText}
+# ${title} ${licenseText} <a id="title"></a>
+
+## Table of Contents
+1. [Title](#title)
+2. [Description](#description)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#usage)
+6. [Contributing](#contributing)
 
 ## Description
-${description}
+${description} <a id="descriptio"></a>
 
+## Installation
+${installation}<a id="installation"></a>
+
+## Usage
+${usage} <a id="usage"></a>
+
+## License
+${license} <a id="license"></a>
+
+## Contributing
+${contributing} <a id="contributing"></a>
+
+## Questions
+${username} ${email}
 `
 }
 
@@ -82,4 +104,17 @@ function getLicenseText(license) {
     } else if (license === "Apachi") {
         return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
+    else if (license === "Eclipse") {
+        return "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
+    }
+    else if (license === "ISC") {
+        return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+    }
+    else if (license === "Perl") {
+        return "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"
+    }
+    else if (license === "Perl") {
+        return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+    }
+
 }
