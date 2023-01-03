@@ -70,12 +70,12 @@ function generateReadme({title, description, installation,  usage, license, cont
 # ${title} ${licenseText} <a id="title"></a>
 
 ## Table of Contents
-1. [Title](#title)
-2. [Description](#description)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [License](#usage)
-6. [Contributing](#contributing)
+- [Title](#title)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#usage)
+- [Contributing](#contributing)
 
 ## Description
 ${description} <a id="descriptio"></a>
@@ -93,7 +93,9 @@ ${license} <a id="license"></a>
 ${contributing} <a id="contributing"></a>
 
 ## Questions
-${username} ${email}
+[github account](https://www.github.com/${username}) 
+
+[email address](${email})
 `
 }
 
