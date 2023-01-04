@@ -71,6 +71,8 @@ function generateReadme({title, description, installation,  usage, license, cont
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 ${description} <a id="description"></a>
