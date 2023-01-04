@@ -1,5 +1,5 @@
 
-# aajlfd [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0) <a id="title"></a>
+# README Generator [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0) <a id="title"></a>
 
 ## Table of Contents
 - [Title](#title)
@@ -12,24 +12,24 @@
 - [Questions](#questions)
 
 ## Description
-kajf <a id="description"></a>
+This application was created using node.js and the inquirer 8.2.4 package. It allows a user to create a custom README file by entering information into the terminal. The user will be prompted to enter information about the application that will then display in the README file. The table of contents portion of the README file will easily allow anyone accessing the README file to jump from section to section.  <a id="description"></a>
 
 ## Installation
-adfkl<a id="installation"></a>
+1. Clone repo to local computer 2. Run npm install 3. Start application by running node . in integrated terminal<a id="installation"></a>
 
 ## Usage
-adjfj <a id="usage"></a>
+This application allows a user to create a custom README file for their own personal projects and applications, The README file will display with the following sections: title, table of contents, description, installation, usage, license, contributing, questions. See below for a sample README file. <a id="usage"></a>
 
 ## License
-This is application is covered under the Eclipse license. <a id="license"></a>
+This is application is covered under the Perl license. <a id="license"></a>
 
 ## Contributing
-akdflj <a id="contributing"></a>
+Please email me if you notice any bugs with this application. <a id="contributing"></a>
 
 ## Tests
-adkfjl <a id="tests"></a>
+N/A <a id="tests"></a>
 
 ## Questions
-[GitHub](https://www.github.com/skdljf) 
+[GitHub](https://www.github.com/annaperlack) 
 
-Please [email](mailto:kdfsj) me with any questions regarding this application.
+Please [email](mailto:annaperlack@gmail.com) me with any questions regarding this application.

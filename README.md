@@ -8,7 +8,7 @@ This application was created using node.js and the inquirer 8.2.4 package. It al
 
 1. Clone repo to local computer 
 2. Run npm install  
-3. Start application by running node index.js in terminal
+3. Start application by running node . in integrated terminal
 
 ## Usage
 
